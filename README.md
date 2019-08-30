@@ -1,2 +1,2 @@
 # my-first-image-classification
-classify uploaded image using HTML/JS
+coding web app to classify image by using HTML/JS
