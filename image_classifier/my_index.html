@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Image Classification AI</title>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <!-- <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>  webcam's part-->
+  </head>
+  <body>
+    <div style="background-color:lightblue">
+      <h1>Have fun!</h1>
+    </div>
+    <!-- <div id="console"></div> -->>
+    <!-- Add an image that we will use to test -->
+    <div class="section upload">
+    <input type="file" id="file" accept="image/*" onchange="loadFile(event)" style="display: none;"/>
+    <!-- <img id="img_file" src="" width = 227 height="227" alt="Image preview... -->
+    <label class="upload-button" for="file">Upload Your Image Here</label>
+    </div>
+
+    <div class="img-display">
+    <img id="img-output" width = 227 height="227"/>
+    </div>
+
+    <div class="section submit">
+    <input type="submit" value="Classify This Image" id="classify"/>
+    </div>
+
+    <div class="section response">
+      <!-- display prediction -->
+      <div id="answer"></div>
+    </div>
+
+    <script src="my_index.js"></script>
+  </body>
+</html>
