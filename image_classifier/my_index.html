@@ -1,38 +1,49 @@
-<!-- test change github -->
-
 <html>
+
   <head>
     <title>Image Classification AI</title>
     <!-- Load the latest version of TensorFlow.js -->
     <script src="https://unpkg.com/@tensorflow/tfjs"></script>
     <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
-    <!-- <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>  webcam's part-->
+    <link rel='stylesheet' href="my_index.css">
   </head>
+
   <body>
+    <!-- set the background color and add header-->
     <div style="background-color:lightblue">
-      <h1>Have fun!</h1>
+      <h1 style ="color:maroon">Have fun with my image classifier!</h1>
     </div>
-    <!-- <div id="console"></div> -->>
-    <!-- Add an image that we will use to test -->
-    <div class="section upload">
-    <input type="file" id="file" accept="image/*" onchange="loadFile(event)" style="display: none;"/>
-    <!-- <img id="img_file" src="" width = 227 height="227" alt="Image preview... -->
-    <label class="upload-button" for="file">Upload Your Image Here</label>
+    <!-- <input type="file"> let the users to upload files from their device -->
+    <!-- <input id="file"> label input as "file" -->
+    <h3 class='upload'> Upload Your Image Here </h3>
+      <input type="file" id="file" accept="image/*" placeholder="Upload Your Image" onchange="loadFile(event)"/>
+      <!-- <label class=""> allow to clink -->
+      <!-- <label class="upload-button" for="file" id="abc"> @Upload Your Image Here@ </label> -->
+    <div class="display">
+      <img id="img-output" height="277" width="277"/>
+    </div>
+    <div class="submit">
+      <!-- <input type="submit"> submit file -->
+      <!-- <input value="some_text"> write "some_test" in the botton to click submit -->
+      <!-- and store input in "some_text value. The default of value is "submit" -->
+      <input type="submit" value="Classify this image" id="classify"/>
     </div>
 
-    <div class="img-display">
-    <img id="img-output" width = 227 height="227"/>
-    </div>
-
-    <div class="section submit">
-    <input type="submit" value="Classify This Image" id="classify"/>
-    </div>
-
-    <div class="section response">
+    <div class="response">
       <!-- display prediction -->
       <div id="answer"></div>
     </div>
 
+
     <script src="my_index.js"></script>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h3>
+
+      <h5>!It's my first webapp so I also learn HTML and CSS at the same time.
+        As you can see, this page looks ugly colorful. sorry for that</h5>
+      <a href="https://github.com/Elstargo00" target="_blank">Click here to check my others project!</a>
+    </h3>
+
   </body>
+
 </html>
