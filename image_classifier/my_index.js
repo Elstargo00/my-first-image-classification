@@ -21,9 +21,6 @@ async function app() {
   console.log('Sucessfully loaded model');
 
   // Make a prediction through the model on our image.
-  //const imgEl = document.getElementById('img-output');
-  //const result = await net.classify(imgEl);
-  //console.log(result);
   document.getElementById('classify').addEventListener("click", classifyImg);
 }
 
