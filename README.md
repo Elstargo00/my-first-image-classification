@@ -10,8 +10,8 @@ First of all we load model in btw <script> tag:
   and control the whole operation with "my_index.js"
  
   <script src="my_index.js"></script>
-  
-  
+  <br>
+  <br>
 When you click the button "Classify this image", the addEventListener of id="classify" have been triggered and implement classifyImg function. The object "net" implement method classify to classify the uploaded image
   
 
