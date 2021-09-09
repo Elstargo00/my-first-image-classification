@@ -12,7 +12,9 @@ First of all we load model in btw <script> tag:
  ```
   <script src="my_index.js"></script>
   ```
-When you click the button "Classify this image", the addEventListener of id="classify" have been triggered and implement classifyImg function. The object "net" implement method classify to classify the uploaded image
-  
+  Mobilenet model has been loaded to an object name "net"
+  <br>
+When you click the button "Classify this image", the addEventListener of id="classify" have been triggered and it also implement classifyImg function. The mobile net object implement method of classify to classify the uploaded image
+  <br>
 
 ![alt text](https://github.com/Elstargo00/my-first-image-classification/blob/master/Screenshot%20example.png)
