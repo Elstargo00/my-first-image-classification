@@ -1,6 +1,6 @@
 # My first image classification
 [Modified on: 10/09/21]
-coding web app to classify image by using HTML/JS
+coding web app to classify image by using HTML/CSS/JS
 
 Future me: I built a static website with HTML and CSS corresponding to my_index.html and my_index.css.
 First of all we load model in btw <script> tag:
