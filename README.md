@@ -1,6 +1,6 @@
 # My first image classification
-[Modified on: 10/09/21]
-coding web app to classify image by using HTML/CSS/JS
+[Modified on: 18/11/21]
+Building Graphical User Interface for image classification model (mobile net) with HTML, CSS, and JAVASCRIPT
 
 Me (in 2021): I built a static website with HTML and CSS corresponding to my_index.html and my_index.css.
 To play with it just clone the repo and drag my_index.html to your favorite browser. Have Fun!!
